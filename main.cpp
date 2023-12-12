@@ -73,15 +73,6 @@ bool is_all_empty_column(list<string> &input, int column) {
     return isAllEmpty;
 }
 
-
-void add_empty_in_column(list<string> &input, int column) {
-    list<string>::iterator it = input.begin();
-    while (it != input.end()) {
-        it->insert(column, ".");
-        it++;
-    }
-}
-
 long sum_of_paths(list<Galaxy> &galaxies, list<Galaxy>::iterator &current, list<int> &emptyColumns, list<int> &emptyRows) {
     long sum = 0;
     if (current == galaxies.end()) {

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -rdynamic "CMakeFiles/aoc23-day11-cosmic_expansion.dir/main.cpp.o" -o aoc23-day11-cosmic_expansion 
